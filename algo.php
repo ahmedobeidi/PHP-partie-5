@@ -18,7 +18,7 @@ $months = [
     "decembre"
 ];
 
-var_dump($months);
+print_r($months);
 echo "<br/><br/>";
 
 
@@ -31,4 +31,10 @@ echo "<br/><br/>";
 /* Exercise 3 */
 echo "Exercise 3<br/>";
 echo $months[5];
+echo "<br/><br/>";
+
+/* Exercise 4 */
+echo "Exercise 4<br/>";
+$months[7] = "août";
+echo $months[7];
 echo "<br/><br/>";
