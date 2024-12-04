@@ -48,6 +48,7 @@ $hautsDeFrance = [
     62 => "Pas-de-Calais",
     80 => "Somme",
 ];
+print_r($hautsDeFrance);
 echo "<br/><br/>";
 
 /* Exercise 6 */
@@ -62,6 +63,14 @@ echo $hautsDeFrance[51];
 echo "<br/><br/>";
 
 /* Exercise 8 */
+echo "Exercise 8<br/>";
 for ($i = 0; $i < count($months); $i++) {
     echo "{$months[$i]}<br>";
+}
+echo "<br/><br/>";
+
+/* Exercise 9 */
+foreach($hautsDeFrance as $code => $value) {
+    echo "{$code} => {$value}";
+    echo "<br/>";
 }
