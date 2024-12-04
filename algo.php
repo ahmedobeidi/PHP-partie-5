@@ -38,3 +38,13 @@ echo "Exercise 4<br/>";
 $months[7] = "août";
 echo $months[7];
 echo "<br/><br/>";
+
+/* Exercise 5 */
+echo "Exercise 5<br/>";
+$hautsDeFrance = [
+    02 => "Asine",
+    59 => "Nord",
+    60 => "Oise",
+    62 => "Pas-de-Calais",
+    80 => "Somme",
+];
