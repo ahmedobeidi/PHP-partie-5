@@ -59,3 +59,9 @@ echo "<br/><br/>";
 echo "Exercise 7<br/>";
 $hautsDeFrance[51] = "Marne";
 echo $hautsDeFrance[51];
+echo "<br/><br/>";
+
+/* Exercise 8 */
+for ($i = 0; $i < count($months); $i++) {
+    echo "{$months[$i]}<br>";
+}
