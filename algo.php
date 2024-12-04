@@ -54,3 +54,8 @@ echo "<br/><br/>";
 echo "Exercise 6<br/>";
 echo $hautsDeFrance[59];
 echo "<br/><br/>";
+
+/* Exercise 7 */
+echo "Exercise 7<br/>";
+$hautsDeFrance[51] = "Marne";
+echo $hautsDeFrance[51];
