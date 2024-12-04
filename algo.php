@@ -1,6 +1,8 @@
 <?php 
 
-/* Exercise 1 
+/* Exercise 1 */
+echo "Exercise 1<br/>";
+
 $months = [
     "janvier",
     "fevrier",
@@ -15,4 +17,12 @@ $months = [
     "novembre",
     "decembre"
 ];
-*/
+
+var_dump($months);
+
+
+/* Exercise 2 */
+echo "Exercise 2<br/>";
+echo $months[2];
+
+
