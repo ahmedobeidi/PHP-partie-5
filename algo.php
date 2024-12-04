@@ -48,3 +48,9 @@ $hautsDeFrance = [
     62 => "Pas-de-Calais",
     80 => "Somme",
 ];
+echo "<br/><br/>";
+
+/* Exercise 6 */
+echo "Exercise 6<br/>";
+echo $hautsDeFrance[59];
+echo "<br/><br/>";
