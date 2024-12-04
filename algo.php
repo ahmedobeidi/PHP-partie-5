@@ -70,7 +70,15 @@ for ($i = 0; $i < count($months); $i++) {
 echo "<br/><br/>";
 
 /* Exercise 9 */
+// foreach($hautsDeFrance as $code => $value) {
+//     echo "{$code} => {$value}";
+//     echo "<br/>";
+// }
+print_r($hautsDeFrance);
+echo "<br/><br/>";
+
+/* Exercise 10 */
 foreach($hautsDeFrance as $code => $value) {
-    echo "{$code} => {$value}";
+    echo "Le département {$value} a le numéro {$code}";
     echo "<br/>";
 }
